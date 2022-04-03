@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'IDroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    
+} 
+
+body {
+    background-color: lightgreen ;
+}        
+ header  { 
+    background-image: linear-gradient(to top, #247D4C, #30AC67);
+    background-attachment: fixed;
+    padding: 15px;
+}
+
+header > h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   color: white;
+   text-align: center;
+}
+
+header > h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   color: white;
+   text-align: center;
+}
+
+header > nav {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   color: white;
+   padding: 10px;
+}
+
+.links {
+   text-decoration: none;
+   color: whitesmoke;
+   font-size: 16px;
+   font-weight: bolder;
+}
+
+main {
+   font-family: 'Times New Roman', Times, serif;
+   border-radius: 1px;
+   box-shadow: 5px 5px 15px ;
+   background-color: white;
+   text-align: justify;
+   width: 850px;
+   padding: 10px;
+   margin: auto;
+}
+
+main > article > img {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+main > article > article.aprenda-mais > table {
+   margin: 2em ;
+}
+
+#video {
+    text-align: center;
+    background-color: darkgreen;
+}
+
+#subtitulo {
+   padding: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   background-color: rgba(0, 128, 0, 0.179);
+}
+
+.aprenda-mais {
+   box-sizing: border-box;
+   background-color: rgba(39, 133, 39, 0.289);
+   border-radius: 10px;
+}
+
+#titulo-conteudo {
+   font-family: 'IDroid', Times, serif;
+   color: darkgreen;
+}
+
+h2.subtitulos-conteudo {
+   font-family: 'IDroid', Times, serif;
+   color: darkgreen;
+   background-color: whitesmoke;
+}
+
+.novos-androids {
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   text-decoration: none;
+   text-align: right; 
+   font-weight: bolder;
+   margin-left: 70%;
+}
+
+.androids-antigos {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none; 
+    font-weight: bolder;
+}
+
+.paragrafos {
+   text-indent: 1em;
+}
+
+footer > aside {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: darkgreen;
+   text-align: center;
+   color: white;
+   padding: 1em;
+}
